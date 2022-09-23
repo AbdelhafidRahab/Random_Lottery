@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"> 
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Web application to do random lottery"/>
+        <title>Random Lottery</title>
+        <link href="browser-icon.png" rel="icon" type="image/x-icon"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="container">
+            <div class="col">
+                <div class="inputs-settings">
+                    <label for="inputs-field"><h2>Inputs <span>0</span></h2></label>
+                    <textarea id="inputs-field" placeholder="Write your entries here, separating them with a space"></textarea>
+                    <button>+</button>
+                    <div>
+                        <label for="winners-number"><h2>Winners number (default is 1) :</h2></label>
+                        <input id="winners-number" type="number">
+                    </div>
+                </div>
+                <span class="lottery">Lottery</span>
+            </div>
+            <div class="col">
+                <div class="inputs"></div>
+                <!-- This span was created to handle a JavaScript error at line 87 -->
+                <span></span>
+            </div>
+        </div>
+        <div class="progress-bar"></div>
+        <script src="script.js"></script>
+    </body>
+</html>
