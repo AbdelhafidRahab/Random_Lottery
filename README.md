@@ -1,2 +1,2 @@
 # Random_Lottery
-An application to perform a random lottery and the winner is one or multiple
+<a href="https://abdelhafidrahab.github.io/Random_Lottery/"> 🚀 DEMO  </a><br>
